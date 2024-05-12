@@ -219,6 +219,25 @@ export const chartBoxRevenue = {
     { name: "Sat", revenue: 450 },
   ],
 };
+
+export const chartBoxAnualRevenue = {
+  color: "teal",
+  icon: "/revenueIcon.svg",
+  title: "Total Revenue",
+  number: "$1.145.432",
+  dataKey: "revenue",
+  percentage: +17,
+  chartData: [
+    { name: "Jan", revenue: 2400 },
+    { name: "Feb", revenue: 2600 },
+    { name: "Mar", revenue: 2500 },
+    { name: "Apr", revenue: 2700 },
+    { name: "May", revenue: 2400 },
+    { name: "Jun", revenue: 2900 },
+   
+  ],
+};
+
 export const chartBoxConversion = {
   color: "gold",
   icon: "/conversionIcon.svg",
@@ -638,6 +657,7 @@ export const singleUser = {
     },
   ],
 };
+
 export const singleProduct = {
   id: 1,
   title: "Playstation 5 Digital Edition",

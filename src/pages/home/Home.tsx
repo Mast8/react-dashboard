@@ -9,7 +9,9 @@ import {
   chartBoxConversion,
   chartBoxProduct,
   chartBoxRevenue,
+  chartBoxAnualRevenue,
   chartBoxUser,
+
 } from "../../data";
 import "./home.scss";
 
@@ -34,6 +36,7 @@ const Home = () => {
       <div className="box box6">
         <ChartBox {...chartBoxRevenue} />
       </div>
+      
       <div className="box box7">
         <BigChartBox />
       </div>
@@ -42,6 +45,9 @@ const Home = () => {
       </div>
       <div className="box box9">
         <BarChartBox {...barChartBoxRevenue} />
+      </div>
+      <div className="box box10">
+        <ChartBox {...chartBoxAnualRevenue} />
       </div>
     </div>
   );
